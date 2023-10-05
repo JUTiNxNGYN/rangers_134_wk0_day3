@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(218, 218, 247);
+}
+
+header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 600px;
+    width: auto;
+    border-radius: 6px;
+    background-image: url(https://www.science.org/do/10.1126/science.ada0652/full/_20220127_on_biglittledogs-1675054789360.jpg)
+}
+
+ul > li {
+    display: inline;
+    margin-left: 75px;
+}
+ul > li > a{
+    text-decoration: none;
+    color: rgb(83, 0, 0);
+    font-weight: 800;
+}
+nav {
+    border: 3px solid rgb(57, 56, 56);
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+article{
+    display: inline-block;
+    width: 65%;
+    text-align: center;
+    margin-top: 35px;
+}
+
+aside{
+    display: inline-block;
+    height: 300px;
+    width: 30%;
+    text-align: center;
+    height: 275px;
+    vertical-align: top;
+    margin-top: 50px;
+    border-left: 1px solid black;
+}
+
+main{
+    border: 4px solid rgb(57, 56, 56);
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+
+}
+footer > p{
+    font-weight: 500;
+    color: rgb(151, 60, 0);
+
+}
+#copy{
+    font-size: xx-large;
+    font-weight: 900;
+    color: black;
+}
